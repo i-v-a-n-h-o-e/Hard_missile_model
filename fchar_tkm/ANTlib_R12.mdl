@@ -1,0 +1,565 @@
+Library {
+  Name			  "tp022479"
+  Version		  6.2
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  SortedOrder		  off
+  CovSaveName		  "covdata"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  Created		  "Mon Dec 27 12:50:16 2004"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Serg"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Jul 03 11:02:25 2007"
+  ModelVersionFormat	  "1.%<AutoIncrement:12>"
+  ConfigurationManager	  "None"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeLogAll		  on
+  ConsistencyChecking	  "none"
+  ArrayBoundsChecking	  "none"
+  AlgebraicLoopMsg	  "warning"
+  BlockPriorityViolationMsg "warning"
+  MinStepSizeMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  MultiTaskRateTransMsg	  "error"
+  SingleTaskRateTransMsg  "none"
+  CheckForMatrixSingularity "none"
+  IntegerOverflowMsg	  "warning"
+  Int32ToFloatConvMsg	  "warning"
+  UnnecessaryDatatypeConvMsg "none"
+  VectorMatrixConversionMsg "none"
+  SignalLabelMismatchMsg  "none"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  SfunCompatibilityCheckMsg "none"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  RTWRetainRTWFile	  off
+  TLCProfiler		  off
+  TLCDebug		  off
+  TLCCoverage		  off
+  RTWOptions		  "-aEnforceIntegerDowncast=1 -aFoldNonRolledExpr=1 -a"
+"InlineInvariantSignals=0 -aInlineParameters=0 -aLocalBlockOutputs=1 -aRollThr"
+"eshold=5 -aGenerateReport=0 -aGenCodeOnly=0 -aRTWVerbose=1 -aIncludeHyperlink"
+"InReport=0 -aLaunchReport=0 -aForceParamTrailComments=0 -aGenerateComments=1 "
+"-aIgnoreCustomStorageClasses=1 -aIncHierarchyInIds=0 -aMaxRTWIdLen=31 -aShowE"
+"liminatedStatements=0 -aPrefixModelToSubsysFcnNames=1 -aIncDataTypeInIds=0 -a"
+"InsertBlockDesc=0 -aSimulinkBlockComments=1 -aInlinedPrmAccess=\"Literals\"  "
+"-aSuppressErrorStatus=0 -aModelReferenceCompliant=1 -aSupportNonInlinedSFcns="
+"1 -aSupportContinuousTime=1 -aSupportComplex=1 -aSupportNonFinite=1 -aSupport"
+"AbsoluteTime=1 -aTargetPreCompLibLocation=\"\" -aTargetLibSuffix=\"\" -aTarge"
+"tFcnLib=\"ansi_tfl_tmw.mat\" -aMultiInstanceERTCode=0 -aLogVarNameModifier=\""
+"rt_\" -aIsPILTarget=0 -aCombineOutputUpdateFcns=0 -aGenerateASAP2=0 -aGenerat"
+"eSampleERTMain=0 -aGenerateFullHeader=1 -aUtilityFuncGeneration=\"Auto\" -aIn"
+"cludeFileDelimiter=\"Auto\" -aIncludeMdlTerminateFcn=1 -aPurelyIntegerCode=0 "
+"-aERTCustomFileBanners=0 -aRTWCAPIStates=0 -aRTWCAPIParams=0 -aRTWCAPISignals"
+"=0 -aMatFileLogging=1 -aGenFloatMathFcnCalls=\"ANSI_C\" -aExtModeMexFile=\"ex"
+"t_comm\" -aExtModeTransport=0 -aExtModeStaticAllocSize=1000000 -aExtModeTesti"
+"ng=0 -aExtModeStaticAlloc=0 -aExtMode=0  "
+  SimulationMode	  "normal"
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Arial"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "tp022479"
+    Location		    [52, 87, 632, 388]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      SubSystem
+      Name		      "Angular movement"
+      Ports		      [2, 2]
+      Position		      [55, 42, 140, 133]
+      BackgroundColor	      "green"
+      Permissions	      "ReadWrite"
+      TreatAsAtomicUnit	      off
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      SimViewingDevice	      off
+      MaskType		      "Angular movement"
+      MaskDescription	      "Vector VJ=[Jxx, Jyy, Jzz, Jxy, Jyz, Jxz];\nAng_"
+"g=[fie psi tet];"
+      MaskInitialization      "g=(1:40)*pi/30;\ny=sin(g)/5+0.5;\nx=cos(g)/5+0."
+"5;\n"
+      MaskDisplay	      "port_label('input',1,'M');\nport_label('input',"
+"2,'VJ');\nport_label('output',1,'Omega');\nport_label('output',2,'Ang_g');\np"
+"lot(x,y);\npatch([.64 .75 .69 .64],[.5 .5 .4 .5]);\n"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "normalized"
+      System {
+	Name			"Angular movement"
+	Location		[127, 147, 452, 237]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [25, 28, 55, 42]
+	  Port			  "1"
+	  PortDimensions	  "-1"
+	  DataType		  "auto"
+	  SignalType		  "auto"
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In2"
+	  Position		  [25, 48, 55, 62]
+	  Port			  "2"
+	  PortDimensions	  "-1"
+	  DataType		  "auto"
+	  SignalType		  "auto"
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Demux
+	  Name			  "Demux"
+	  Ports			  [1, 2]
+	  Position		  [240, 26, 245, 64]
+	  BackgroundColor	  "black"
+	  ShowName		  off
+	  Outputs		  "2"
+	  BusSelectionMode	  off
+	}
+	Block {
+	  BlockType		  Mux
+	  Name			  "Mux"
+	  Ports			  [2, 1]
+	  Position		  [80, 26, 85, 64]
+	  ShowName		  off
+	  Inputs		  "2"
+	  DisplayOption		  "bar"
+	  UseBusObject		  off
+	}
+	Block {
+	  BlockType		  "S-Function"
+	  Name			  "S-rotationLA"
+	  Ports			  [1, 1]
+	  Position		  [130, 30, 190, 60]
+	  BackgroundColor	  "darkGreen"
+	  FunctionName		  "rotationSf"
+	  Parameters		  "AnStart"
+	  SFunctionModules	  "''"
+	  PortCounts		  "[]"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [270, 28, 300, 42]
+	  Port			  "1"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out2"
+	  Position		  [270, 48, 300, 62]
+	  Port			  "2"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Line {
+	  SrcBlock		  "Mux"
+	  SrcPort		  1
+	  DstBlock		  "S-rotationLA"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "S-rotationLA"
+	  SrcPort		  1
+	  DstBlock		  "Demux"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Demux"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Demux"
+	  SrcPort		  2
+	  DstBlock		  "Out2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In2"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  2
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "angG2B"
+      Ports		      [1, 1]
+      Position		      [285, 61, 380, 109]
+      BackgroundColor	      "green"
+      Permissions	      "ReadWrite"
+      TreatAsAtomicUnit	      off
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      SimViewingDevice	      off
+      MaskType		      "angG2B"
+      MaskDescription	      "[fie psi tet]>>>B"
+      MaskDisplay	      "port_label('input',1,'Ang_fpt')\nport_label('ou"
+"tput',1,'B')\ndisp('          A_g2B')\n"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      System {
+	Name			"angG2B"
+	Location		[207, 141, 542, 229]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [25, 38, 55, 52]
+	  Port			  "1"
+	  PortDimensions	  "-1"
+	  DataType		  "auto"
+	  SignalType		  "auto"
+	  Interpolate		  on
+	}
+	Block {
+
+	  BlockType		  Reference
+	  Name			  "Reshape"
+	  Ports			  [1, 1]
+	  Position		  [200, 27, 255, 63]
+	SourceBlock	"simulink3/Signals\n& Systems/Reshape"
+	  SourceType		  "Reshape"
+	  OutputDimensionality	  "Customize"
+	  OutputDimensions	  "[3,3]"
+	}
+	Block {
+	  BlockType		  "S-Function"
+	  Name			  "angG2B"
+	  Ports			  [1, 1]
+	  Position		  [80, 27, 155, 63]
+	  BackgroundColor	  "[1.000000, 0.725490, 0.725490]"
+	  FunctionName		  "angG2B_SF"
+	  SFunctionModules	  "''"
+	  PortCounts		  "[]"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [280, 38, 310, 52]
+	  Port			  "1"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Line {
+	  SrcBlock		  "angG2B"
+	  SrcPort		  1
+	  DstBlock		  "Reshape"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Reshape"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "angG2B"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "angG2Bas"
+      Ports		      [2, 2]
+      Position		      [280, 167, 380, 218]
+      BackgroundColor	      "green"
+      DropShadow	      on
+      Permissions	      "ReadWrite"
+      TreatAsAtomicUnit	      off
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      SimViewingDevice	      off
+      MaskType		      "angG2Bas"
+      MaskDescription	      "Расчет матрицы B по углам и с-углов"
+      MaskDisplay	      "port_label('input',1,'Ang_fpt')\nport_label('ou"
+"tput',2,'B')\nport_label('output',1,'AngS')\ndisp('Ang2Bas')\nport_label('inp"
+"ut',2,'Bpr')"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      System {
+	Name			"angG2Bas"
+	Location		[2, 74, 630, 436]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  Position		  [35, 28, 65, 42]
+	  Port			  "1"
+	  PortDimensions	  "-1"
+	  DataType		  "auto"
+	  SignalType		  "auto"
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In2"
+	  Position		  [35, 68, 65, 82]
+	  Port			  "2"
+	  PortDimensions	  "-1"
+	  DataType		  "auto"
+	  SignalType		  "auto"
+	  Interpolate		  on
+	}
+	Block {
+	  BlockType		  Mux
+	  Name			  "Mux"
+	  Ports			  [2, 1]
+	  Position		  [175, 26, 180, 64]
+	  ShowName		  off
+	  Inputs		  "2"
+	  DisplayOption		  "bar"
+	  UseBusObject		  off
+	}
+	Block {
+
+	  BlockType		  Reference
+	  Name			  "Reshape1"
+	  Ports			  [1, 1]
+	  Position		  [375, 27, 430, 63]
+	SourceBlock	"simulink3/Signals\n& Systems/Reshape"
+	  SourceType		  "Reshape"
+	  OutputDimensionality	  "Customize"
+	  OutputDimensions	  "[3,3]"
+	}
+	Block {
+
+	  BlockType		  Reference
+	  Name			  "Reshape2"
+	  Ports			  [1, 1]
+	  Position		  [85, 57, 140, 93]
+	SourceBlock	"simulink3/Signals\n& Systems/Reshape"
+	  SourceType		  "Reshape"
+	  OutputDimensionality	  "Column vector"
+	  OutputDimensions	  "[3,3]"
+	}
+	Block {
+	  BlockType		  Selector
+	  Name			  "Selector"
+	  Ports			  [1, 1]
+	  Position		  [305, 26, 345, 64]
+	  InputType		  "Vector"
+	  ElementSrc		  "Internal"
+	  Elements		  "[1:9]"
+	  RowSrc		  "Internal"
+	  Rows			  "1"
+	  ColumnSrc		  "Internal"
+	  Columns		  "1"
+	  InputPortWidth	  "12"
+	}
+	Block {
+	  BlockType		  Selector
+	  Name			  "Selector1"
+	  Ports			  [1, 1]
+	  Position		  [305, 86, 345, 124]
+	  InputType		  "Vector"
+	  ElementSrc		  "Internal"
+	  Elements		  "[10 :12]"
+	  RowSrc		  "Internal"
+	  Rows			  "1"
+	  ColumnSrc		  "Internal"
+	  Columns		  "1"
+	  InputPortWidth	  "12"
+	}
+	Block {
+	  BlockType		  "S-Function"
+	  Name			  "angG2Bas"
+	  Ports			  [1, 1]
+	  Position		  [205, 29, 270, 61]
+	  BackgroundColor	  "[1.000000, 0.725490, 0.725490]"
+	  FunctionName		  "angG2Bas_SF"
+	  SFunctionModules	  "''"
+	  PortCounts		  "[]"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out2"
+	  Position		  [370, 98, 400, 112]
+	  Port			  "1"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  Position		  [455, 38, 485, 52]
+	  Port			  "2"
+	  OutputWhenDisabled	  "held"
+	  InitialOutput		  "[]"
+	}
+	Line {
+	  SrcBlock		  "angG2Bas"
+	  SrcPort		  1
+	  Points		  [0, 0; 10, 0]
+	  Branch {
+	    DstBlock		    "Selector"
+	    DstPort		    1
+	  }
+	  Branch {
+	    Points		    [0, 60]
+	    DstBlock		    "Selector1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Selector"
+	  SrcPort		  1
+	  Points		  [0, 0]
+	  DstBlock		  "Reshape1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Reshape1"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Selector1"
+	  SrcPort		  1
+	  DstBlock		  "Out2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In2"
+	  SrcPort		  1
+	  DstBlock		  "Reshape2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Mux"
+	  SrcPort		  1
+	  DstBlock		  "angG2Bas"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Reshape2"
+	  SrcPort		  1
+	  Points		  [0, -20]
+	  DstBlock		  "Mux"
+	  DstPort		  2
+	}
+      }
+    }
+  }
+}
