@@ -15,7 +15,7 @@ prj.pn = 2175;
 prj.mode = 'Номинальный';
 
 %'C:\Users\admin\Documents\MATLAB\'
-prj.id = ['D:\YandexDisk\Documents\Ivan\!!Tasks&Projects\RocketStabilizationSystem\',prj.name...
+prj.id = ['D:\YandexDisk\Documents\Ivan\!!Tasks&Projects\hard rocket\Hard_missile_model\',prj.name...
     ' ПН = ' num2str(prj.pn)];
 dm.T0 = 0.03; %период дискретизации,с 
 %% Считываем данные из EXCEL

@@ -5,7 +5,8 @@ clc;
 prj.name = 'Союз-2.1в';
 prj.pn = 2175;
 prj.mode = 'Номинальный';
-prj.id = ['C:\Users\admin\Documents\MATLAB\',prj.name...
+%'C:\Users\admin\Documents\MATLAB\',
+prj.id = ['\',prj.name...
     ' ПН = ' num2str(prj.pn)];
 dm.T0 = 0.03; %период дискретизации,с 
 %% Считываем данные из EXCEL
