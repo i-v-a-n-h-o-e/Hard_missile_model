@@ -7,7 +7,7 @@
 %
 %***********************************************
 tic
-%clear;
+clear lqr;
 %clc;
 %% Ракета и ПН
 prj.name = 'Союз-2.1в';
@@ -44,7 +44,7 @@ Q = [1/(3*pi/180)^2 0 0 0;
     0 0 1/(1*pi/180)^2 0;
     0 0 0 1/(10^2)];
 for tmp = 1:length(dm.t)
-    as.k(:,:,tmp) =lqr(dm.A(:,:,tmp),dm.B(:,:,tmp),eye(4),1);
+    as.k(:,:,tmp) = lqr(dm.A(:,:,tmp),dm.B(:,:,tmp),eye(4),1);
 end
 as = rmfield(as,'data');
 clearvars options
